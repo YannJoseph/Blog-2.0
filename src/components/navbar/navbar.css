@@ -1,0 +1,50 @@
+.navbar {
+    height: 50px;
+    background: blue;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.item{
+    font-weight: bold ;
+    display: flex;
+    cursor: pointer;
+    margin: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    
+    
+}
+
+a:hover {
+    color: black;
+    transform: scale(1.1);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+a:visited {
+    
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:not(:visited){
+    
+}
